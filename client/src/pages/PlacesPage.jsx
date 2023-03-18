@@ -46,7 +46,7 @@ const PlacesPage = () => {
               <div className="flex w-32 h-32 bg-gray-300 grow shrink-0">
                 <img
                   className="object-cover"
-                  src={`http://localhost:3001/Uploads/${place.photos[0]}`}
+                  src={`https://booking-app-hky1.onrender.com/Uploads/${place.photos[0]}`}
                   alt=""
                 />
               </div>

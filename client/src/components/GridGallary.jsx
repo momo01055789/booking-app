@@ -36,7 +36,7 @@ const GridGallary = ({ place }) => {
               <div>
                 <img
                   className="w-full"
-                  src={`http://localhost:3001/Uploads/${photo}`}
+                  src={`https://booking-app-hky1.onrender.com/Uploads/${photo}`}
                   alt=""
                 />
               </div>
@@ -54,7 +54,10 @@ const GridGallary = ({ place }) => {
             <img
               onClick={() => setShowAllPhotos(true)}
               className="aspect-square object-cover"
-              src={"http://localhost:3001/Uploads/" + place.photos[0]}
+              src={
+                "https://booking-app-hky1.onrender.com/Uploads/" +
+                place.photos[0]
+              }
               alt=""
             />
           )}
@@ -64,7 +67,10 @@ const GridGallary = ({ place }) => {
             <img
               onClick={() => setShowAllPhotos(true)}
               className="aspect-square object-cover"
-              src={"http://localhost:3001/Uploads/" + place.photos[1]}
+              src={
+                "https://booking-app-hky1.onrender.com/Uploads/" +
+                place.photos[1]
+              }
               alt=""
             />
           )}
@@ -73,7 +79,10 @@ const GridGallary = ({ place }) => {
               <img
                 onClick={() => setShowAllPhotos(true)}
                 className="relative top-2 aspect-square object-cover"
-                src={"http://localhost:3001/Uploads/" + place.photos[2]}
+                src={
+                  "https://booking-app-hky1.onrender.com/Uploads/" +
+                  place.photos[2]
+                }
                 alt=""
               />
             )}

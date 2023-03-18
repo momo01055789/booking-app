@@ -10,7 +10,7 @@ const RegisterPage = () => {
   const registerUser = async (e) => {
     e.preventDefault();
     try {
-      await axios.post("http://localhost:3001/register", {
+      await axios.post("https://booking-app-hky1.onrender.com/register", {
         name,
         email,
         password,
