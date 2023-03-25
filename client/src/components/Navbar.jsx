@@ -24,7 +24,7 @@ const Navbar = () => {
         </svg>
         <span className="font-bold text-xl">airbnb</span>
       </Link>
-      <div className="flex gap-2 border border-gray-300 rounded-full py-2 px-4 shadow-md shadow-gray-300">
+      <div className="flex gap-2 border border-gray-300 rounded-full py-2 px-4 shadow-md shadow-gray-300 max-[560px]:hidden">
         <div>Anywhere</div>
         <div className="border-l border-gray-300"></div>
         <div>Any week</div>
