@@ -13,10 +13,13 @@ const LoginPage = () => {
   const handleLogin = async (e) => {
     e.preventDefault();
     try {
-      const { data } = await axios.post("/login", {
-        email,
-        password,
-      });
+      const { data } = await axios.post(
+        "https://booking-app-hky1.onrender.com/login",
+        {
+          email,
+          password,
+        }
+      );
       setUser(data);
       setRedirect(true);
     } catch (err) {

@@ -19,7 +19,7 @@ const AccountNavigation = () => {
   };
 
   return (
-    <nav className="w-full flex justify-center mt-4 mb-8 gap-2">
+    <nav className="w-full flex justify-center mt-4 mb-8 gap-2 max-[550px]:flex-col">
       <Link className={linkClasses("account")} to="/account">
         <svg
           xmlns="http://www.w3.org/2000/svg"

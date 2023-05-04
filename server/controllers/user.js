@@ -33,7 +33,6 @@ export const login = async (req, res) => {
           {},
           (err, token) => {
             if (err) throw err;
-
             res.cookie("token", token).json(user);
           }
         );
@@ -41,7 +40,7 @@ export const login = async (req, res) => {
         res.status(422).json("pass is not ok");
       }
     }
-    // res.json(user);
+    res.json(user);
   } catch (e) {
     res.status(422).json(e);
   }
