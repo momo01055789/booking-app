@@ -53,7 +53,7 @@ const BookingWidget = ({ place }) => {
       </div>
       <div className="border rounded-2xl mt-4">
         <div className="flex">
-          <div className="py-3 px-4 max-[600px]:w-10/12 px-1">
+          <div className="py-3 px-4 max-[600px]:w-10/12 max-[600px]:px-1">
             <label>Check in:</label>
             <input
               type="date"
@@ -61,7 +61,7 @@ const BookingWidget = ({ place }) => {
               onChange={(ev) => setCheckIn(ev.target.value)}
             />
           </div>
-          <div className="py-3 px-4 border-l max-[600px]:w-10/12 px-1">
+          <div className="py-3 px-4 border-l max-[600px]:w-10/12 max-[600px]:px-1 ">
             <label>Check out:</label>
             <input
               type="date"
